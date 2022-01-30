@@ -1,0 +1,299 @@
+297
+8
+push_front 842
+pop_back
+push_front 576
+push_front -853
+pop_back
+push_front 123
+push_front -236
+pop_front
+push_back 840
+pop_front
+push_back 740
+push_back 347
+pop_front
+push_front -767
+push_front -711
+push_back -7
+pop_front
+pop_back
+pop_back
+pop_back
+pop_back
+pop_front
+push_back -215
+push_front 540
+pop_front
+push_front -293
+pop_back
+pop_back
+pop_front
+pop_back
+push_back 873
+push_front 47
+push_back -238
+push_front -575
+pop_front
+push_front -916
+push_front 292
+push_back 302
+push_front 456
+push_back 92
+push_back -422
+push_back 890
+push_back -100
+pop_back
+push_front -356
+pop_front
+push_front 430
+push_front 469
+push_back -56
+push_front 273
+pop_back
+pop_back
+push_front -397
+push_back 131
+pop_front
+push_back -4
+push_front -265
+push_back 10
+push_back -531
+pop_back
+pop_back
+pop_back
+push_front 766
+pop_front
+push_front -520
+pop_back
+pop_back
+pop_back
+pop_back
+pop_back
+push_front -386
+push_back -320
+push_back 21
+pop_front
+push_back 495
+pop_front
+push_front -95
+pop_front
+pop_back
+push_back 908
+push_front 115
+push_back -855
+push_back -531
+pop_front
+pop_back
+pop_front
+pop_front
+pop_back
+push_back -792
+push_back -599
+pop_back
+pop_front
+push_front 557
+pop_front
+pop_front
+push_back -839
+push_front -194
+pop_front
+push_back -513
+push_front 484
+pop_front
+push_back -200
+pop_front
+push_front -821
+push_back -641
+push_back 254
+pop_front
+pop_back
+push_front 270
+push_front 910
+pop_back
+push_back 167
+push_front -6
+push_front 768
+pop_front
+pop_back
+push_back 951
+push_front -468
+pop_front
+push_back 177
+push_back -325
+push_back 226
+push_front 613
+push_front -523
+pop_back
+push_front -398
+pop_back
+push_front 219
+pop_front
+pop_front
+push_front 950
+pop_front
+push_back -665
+pop_front
+pop_front
+pop_back
+push_back -130
+push_front -556
+pop_back
+pop_front
+pop_front
+pop_back
+push_back 6
+push_back -825
+pop_front
+push_back -361
+push_front -285
+push_front 545
+pop_front
+pop_front
+push_front -238
+push_back 732
+pop_back
+pop_front
+pop_back
+push_front 207
+pop_back
+pop_front
+pop_front
+pop_front
+pop_front
+pop_front
+pop_front
+pop_front
+pop_front
+pop_back
+push_front -872
+push_front -530
+push_front -622
+push_front 244
+push_back 389
+push_back -611
+push_front -778
+push_front 811
+pop_back
+pop_front
+pop_back
+push_front -857
+push_front 80
+pop_front
+push_back -604
+push_front -20
+pop_front
+pop_back
+push_front -213
+pop_front
+push_back -322
+push_front 703
+pop_front
+push_back -597
+push_back 557
+pop_back
+push_back -610
+push_front 957
+push_front 206
+push_back -544
+pop_front
+pop_back
+pop_back
+pop_front
+push_front -626
+push_front 584
+pop_front
+push_back 81
+pop_front
+push_front 305
+push_back -664
+pop_front
+pop_front
+pop_back
+push_back 249
+push_front -942
+push_back 414
+pop_back
+push_back -729
+push_back 644
+pop_back
+pop_back
+pop_back
+pop_front
+pop_back
+pop_back
+push_back 282
+push_back 915
+push_back -18
+pop_back
+pop_back
+push_front 301
+push_front -274
+pop_back
+pop_front
+push_back 205
+pop_front
+push_back -580
+push_back -235
+push_back -63
+push_back 980
+pop_front
+push_back -874
+pop_front
+push_back -859
+push_front -295
+push_back 331
+push_front 3
+push_back -474
+pop_front
+push_front 250
+pop_front
+pop_back
+push_front -633
+pop_front
+push_back -875
+push_back -139
+push_front -723
+pop_back
+pop_back
+push_front 696
+pop_back
+pop_back
+push_front -483
+pop_front
+pop_back
+push_front 459
+pop_back
+pop_front
+push_back -228
+pop_front
+pop_front
+push_back 439
+push_front -242
+push_back 460
+push_front 328
+pop_front
+push_front -698
+pop_front
+pop_back
+pop_back
+push_front -356
+pop_front
+push_back -658
+push_front 484
+push_back 509
+pop_back
+push_front -95
+push_back 49
+push_back 580
+pop_back
+pop_front
+pop_back
+push_front 24
+pop_back
+pop_front
+pop_back
+pop_back
+pop_back
+push_front 232
+pop_back

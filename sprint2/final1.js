@@ -27,9 +27,12 @@ class Dequeue {
     get isEmpty() {
         return this.tail === this.head;
     }
+    getNewValue(value) {
+        return ((value % this.max_n) + this.max_n) % this.max_n;
+    }
     //pushLeft
     pushFront(value) {
-        const newHead = (((this.head - 1) % this.max_n) + this.max_n) % this.max_n;
+        const newHead = this.getNewValue(this.head - 1);
         if (this.tail === newHead) {
             return ERROR;
         }
@@ -59,7 +62,7 @@ class Dequeue {
         if (this.isEmpty) {
             return ERROR;
         }
-        this.tail = (((this.tail - 1) % this.max_n) + this.max_n) % this.max_n;
+        this.tail = this.getNewValue(this.tail - 1);
         return this.queue[this.tail];
     }
 }

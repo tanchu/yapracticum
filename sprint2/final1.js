@@ -21,32 +21,37 @@ class Dequeue {
         this.queue = Array(len).fill(null);
         this.head = 0;
         this.tail = 0;
-        this.max_n = len;
+        this.maxLen = len;
         this.size = 0;
     }
-    get isEmpty() {
-        return this.tail === this.head;
+    get isEmpty () {
+        return this.size === 0;
+    }
+    get isFull() {
+        return this.size === this.maxLen;
     }
     getNewValue(value) {
-        return ((value % this.max_n) + this.max_n) % this.max_n;
+        return ((value % this.maxLen) + this.maxLen) % this.maxLen;
     }
     //pushLeft
     pushFront(value) {
         const newHead = this.getNewValue(this.head - 1);
-        if (this.tail === newHead) {
+        if (this.isFull) {
             return ERROR;
         }
         this.head = newHead;
         this.queue[this.head] = value;
+        this.size += 1;
     }
     //pushRight
     pushBack(value) {
-        const newTail = (this.tail + 1) % this.max_n;
-        if (newTail === this.head) {
+        const newTail = (this.tail + 1) % this.maxLen;
+        if (this.isFull) {
             return ERROR;
         }
         this.queue[this.tail] = value;
         this.tail = newTail;
+        this.size += 1;
     }
     //popLeft
     popFront() {
@@ -54,7 +59,8 @@ class Dequeue {
             return ERROR;
         }
         const ret = this.queue[this.head];
-        this.head = (this.head + 1) % this.max_n;
+        this.head = (this.head + 1) % this.maxLen;
+        this.size -= 1;
         return ret;
     }
     popBack() {
@@ -63,7 +69,9 @@ class Dequeue {
             return ERROR;
         }
         this.tail = this.getNewValue(this.tail - 1);
+        this.size -= 1;
         return this.queue[this.tail];
+        
     }
 }
 

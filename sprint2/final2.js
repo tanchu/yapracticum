@@ -1,4 +1,23 @@
 // JavaScript
+// https://contest.yandex.ru/contest/22781/run-report/64781664/
+
+/*
+-- ПРИНЦИП РАБОТЫ --
+Описан в условиях задачи.
+ 
+-- ДОКАЗАТЕЛЬСТВО КОРРЕКТНОСТИ --
+
+Код программы является переложением алгоритма из, приведенного в описании задачи, на язык javascript.
+
+-- ВРЕМЕННАЯ СЛОЖНОСТЬ --
+Cложность алгоритма O(n), т.к. а решении используется проход по всему массиву, длинной n
+
+-- ПРОСТРАНСТВЕННАЯ СЛОЖНОСТЬ --
+т.к. в памяти мы храним весь массив входных, который занимает O(n) и стэк операндов для вычисления, который в худшем случае будет занимать O(n) памяти.
+с точки зрания O нотации, общая пространственная сложность будет составлять O(n).
+
+
+ */
 
 const readline = require('readline');
 
@@ -39,7 +58,6 @@ function solve() {
     const calc = (operator) => {
         const b = numbersStack.pop();
         const a = numbersStack.pop();
-
         const res = Math.floor(mathActionResult(a, b, operator));
 
         numbersStack.push(res);
@@ -53,7 +71,6 @@ function solve() {
             if (isNaN(numberOrMayBeNot)) {
                 calc(item);
                 return;
-            } else {
             }
             numbersStack.push(numberOrMayBeNot);
         });
